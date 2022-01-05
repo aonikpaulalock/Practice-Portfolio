@@ -1,0 +1,127 @@
+/* All Element Lanch */
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-weight: 700;
+}
+
+section{
+  margin-bottom: 150px;
+}
+
+p{
+  color: rgb(83, 76, 76);
+  text-align: justify;
+  padding-bottom: 15px;
+}
+
+/* ======= Top Banner Section Starts ======= */
+.top-banner{
+background-image: url(./Image/top-banner.png);
+background-repeat: no-repeat;
+
+}
+.flex{
+  display: flex;
+}
+.Orange{
+color: orange;
+
+}
+.half-width {
+  width: 48%;
+  margin-left: 2%;
+}
+.half-width img{
+width: 75%;
+
+}
+.Hire-Button{
+  padding: 10px 40px;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom,salmon,orange);
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+} 
+  
+
+/* ======= Top Banner Section Ends ======= */
+
+/* ======= Dream Section Starts ======= */
+.Big-Dream{
+background-image:url(./Image/dream-bg.png);
+background-repeat: no-repeat;
+background-position:right bottom ;
+}
+
+/* ======= Dream Section Ends ======= */
+
+/* ======= Experince Section Starts ======= */
+
+.Experince{
+background-image:url(.//Image/exp-bg.png);
+background-repeat:no-repeat;
+background-position:left 6%;
+
+}
+.experince-item{
+ width: 45%;
+ box-shadow: 10px 10px 40px #ddd;
+ margin-left: 3%;
+ margin-right: 2%;
+ padding: 30px;
+ border-top-left-radius: 100px;
+border-bottom-right-radius: 100px;
+
+}
+#Fullstack{
+border-top: 5px solid orange;
+border-right: 5px solid orange;
+}
+
+#Babyweb{
+  border-top: 5px solid orange;
+  border-right: 5px solid orange;
+
+}
+
+
+.Center{
+text-align: center;
+padding-bottom: 10px;
+position: relative;
+
+}
+.Center::after{
+content: "";
+position: absolute;
+right:46%;
+bottom: 1%;
+width: 100px;
+height: 5px;
+border-radius: 20px;
+background-color:orange;
+
+
+
+}
+
+
+/* ======= Experince Section Ends ======= */
+
+/* ====== Fotter Section Start ======*/
+footer{
+  text-align: center;
+}
+/* ====== Fotter Section Ends ======*/
